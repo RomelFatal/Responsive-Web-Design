@@ -211,10 +211,12 @@ entire body of the site. The selection of Open Sans are the following:
 2) light 300 italic
 3) bold 700
 4) bold 700 italic. */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i&display=swap');
 
 
 /* Applying styling to the body */
+
 body {
     font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300;
     color: #555; margin: 0; padding: 0;
@@ -228,8 +230,7 @@ auto is used to center all content of the page*/
 
 
 /* Styling applying to text
-The number systems used in CCS Ex: 0     0      0        0 
-                                   Top   Right  Bottom   Left
+The number systems used in CCS Ex: 0     0      0        0 Top   Right  Bottom   Left
 These are the styling for h1, h2, h3, and h4*/
 h1 { margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700;}
 h2 { margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em;}
@@ -260,13 +261,15 @@ a.btn {font-size: 1.2em;
     transition: background-color 0.5s;
 }
 /* Hover state for the button class */
-a.btn:hover { /* Defined color of background color using rgba 
+a.btn:hover { 
+	/* Defined color of background color using rgba 
     (a is alpha) which defines level of transparancy */
     background-color: rgba(0, 0, 0, .3);
 }
 
 /* Styling for the header */
-header { height: 430px; background: #cf0004 url(../images/banner_1200.jpg)
+header { 
+	height: 430px; background: #cf0004 url(../images/banner_1200.jpg)
 no-repeat /* The center and bottom are defined for X&Y Coordinates*/center bottom; 
 /*Any items is position to the header itself as defined by position: relative */
 position: relative;}
